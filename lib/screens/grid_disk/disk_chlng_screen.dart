@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:trend_practice/screens/anim_list/trip.dart';
-import 'package:trend_practice/screens/disk_chlng/disk_item2.dart';
+import 'package:trend_practice/screens/grid_disk/disk_item.dart';
 
-class DiskChlngScreen extends StatefulWidget {
-  const DiskChlngScreen({Key? key}) : super(key: key);
+class GridDiskScreen extends StatefulWidget {
+  const GridDiskScreen({Key? key}) : super(key: key);
   @override
-  State<DiskChlngScreen> createState() => _DiskChlngScreenState();
+  State<GridDiskScreen> createState() => _GridDiskScreenState();
 }
 
-class _DiskChlngScreenState extends State<DiskChlngScreen> {
+class _GridDiskScreenState extends State<GridDiskScreen> {
   int _count = 2;
   bool _isFirst = true;
   @override

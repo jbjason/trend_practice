@@ -18,9 +18,7 @@ class _BookAnimScreenState extends State<BookAnimScreen> {
     _controller.addListener(_listener);
   }
 
-  void _listener() {
-    _notifier.value = _controller.page!;
-  }
+  void _listener() => _notifier.value = _controller.page!;
 
   @override
   void dispose() {
@@ -46,9 +44,6 @@ class _BookAnimScreenState extends State<BookAnimScreen> {
             right: 0,
             child: AppBar(
               backgroundColor: Colors.grey[800],
-              leading: InkWell(
-                  onTap: () => Navigator.pop(context),
-                  child: const Icon(Icons.arrow_back_ios_new)),
               title: const Text('Book Concept'),
             ),
           ),

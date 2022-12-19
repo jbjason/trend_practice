@@ -87,7 +87,7 @@ class _DiskItemState extends State<DiskItem> with TickerProviderStateMixin {
                     child: Transform.rotate(
                       alignment: Alignment.center,
                       angle: vector.radians(360 * _animation.value),
-                      child: Image.asset('assets/trip/disk_.png',
+                      child: Image.asset('assets/card_/disk.png',
                           height: widget.count == 2
                               ? (size.height * .16 - 10)
                               : size.height *
