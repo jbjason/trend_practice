@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:trend_practice/constants/constant.dart';
 import 'package:trend_practice/screens/anim_list/anim_list_screen.dart';
-import 'package:trend_practice/screens/bkash_counter/bkash_counter_buttons.dart';
+import 'package:trend_practice/screens/bkash_counter/bkash_counter_screen.dart';
 import 'package:trend_practice/screens/book_screen/book_anim_screen.dart';
 import 'package:trend_practice/screens/circular_indicator/circular_indicator_screen.dart';
 import 'package:trend_practice/screens/draggable_anim/draggable_anim_screen.dart';
