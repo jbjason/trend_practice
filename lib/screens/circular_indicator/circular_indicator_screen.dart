@@ -54,11 +54,13 @@ class _MyPaint extends CustomPainter {
       ..strokeWidth = 20
       ..shader = gradient.createShader(rect);
     final paint2 = Paint()..color = Colors.red;
-
+    // back Circular white color
     canvas.drawArc(rect, 0, 360, false, paint);
-    canvas.drawArc(rect, math.radians(270), math.radians(300), false, paint1);
-    double x1 = center.dx - (center.dx) * cos(math.radians(270));
-    double y1 = center.dx - (center.dx) * sin(math.radians(270));
+    // top Circular blue Color
+    canvas.drawArc(rect, math.radians(271), math.radians(300), false, paint1);
+    //
+    double x1 = center.dx - (center.dx) * cos(math.radians(30));
+    double y1 = center.dx - (center.dx) * sin(math.radians(30));
     canvas.drawCircle(Offset(x1, y1), 12, paint2);
   }
 

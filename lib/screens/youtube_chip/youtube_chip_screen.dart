@@ -12,7 +12,6 @@ class _YoutubeChipScreenState extends State<YoutubeChipScreen> {
   final List<String> _items = ['jb jason'];
   @override
   Widget build(BuildContext context) {
-    final size = MediaQuery.of(context).size;
     return GestureDetector(
       onTap: () => FocusScope.of(context).unfocus(),
       child: Scaffold(
@@ -20,7 +19,6 @@ class _YoutubeChipScreenState extends State<YoutubeChipScreen> {
         body: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Container(width: size.width, color: Colors.purple, height: 10),
             Padding(
               padding: const EdgeInsets.all(15.0),
               child: GestureDetector(
